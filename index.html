@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cureall Pharmaceutical product catalogue — explore medicine compositions, indications and formats."
+    />
+    <title>Cureall Pharmaceutical | Product Catalogue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#top" aria-label="Cureall Pharmaceutical home">
+          <span class="brand-mark">+</span>
+          <span>
+            <strong>CUREALL</strong>
+            <small>PHARMACEUTICAL</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a class="active" href="#catalogue">Catalogue</a>
+          <a href="#about">About us</a>
+          <a href="#quality">Quality promise</a>
+        </nav>
+        <a class="contact-link" href="mailto:care@aureliamedica.example">
+          <span>Talk to our team</span>
+          <span class="arrow">↗</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span></span> CARE, COMMITMENT, CURE</div>
+            <h1>Clarity for every<br /><em>care decision.</em></h1>
+            <p>
+              Explore a focused range of pharmaceutical products created to
+              support better conversations between healthcare professionals and
+              the people they care for.
+            </p>
+            <a class="button button-primary" href="#catalogue">
+              Explore catalogue <span>↗</span>
+            </a>
+            <div class="hero-proof">
+              <div class="avatar-stack" aria-hidden="true">
+                <span>DR</span><span>AS</span><span>NP</span>
+              </div>
+              <p><strong>Trusted by care teams</strong><br />Across every stage of care</p>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="leaf leaf-one"></div>
+            <div class="leaf leaf-two"></div>
+            <div class="hero-card">
+              <span class="card-label">FEATURED FORMULA</span>
+              <div class="hero-text-card">
+                <span>CARE ALL</span>
+                <strong>Curehem-F</strong>
+                <small>Ferrous ascorbate · folic acid · zinc · vitamin B12</small>
+              </div>
+              <div class="hero-card-footer">
+                <div>
+                  <strong>Curehem-F</strong>
+                  <small>Complete hematinic care</small>
+                </div>
+                <span class="round-arrow">↗</span>
+              </div>
+            </div>
+            <div class="floating-note"><span>✦</span> Evidence-led<br />product information</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalogue-section" id="catalogue">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow"><span></span> OUR CATALOGUE</div>
+              <h2>Products made to<br /><em>move care forward.</em></h2>
+            </div>
+            <p class="section-intro">
+              Browse by therapeutic focus or search by brand, composition, or
+              dosage form.
+            </p>
+          </div>
+
+          <div class="toolbar">
+            <div class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="searchInput" type="search" placeholder="Search products or compositions..." />
+            </div>
+            <div class="filter-tabs" role="tablist" aria-label="Product categories">
+              <button class="filter-tab active" data-filter="all" role="tab">All products</button>
+              <button class="filter-tab" data-filter="anti-infective" role="tab">Anti-infectives</button>
+              <button class="filter-tab" data-filter="wellness" role="tab">Wellness</button>
+              <button class="filter-tab" data-filter="paediatric" role="tab">Paediatric</button>
+              <button class="filter-tab" data-filter="specialty" role="tab">Specialty care</button>
+            </div>
+          </div>
+
+          <div class="catalogue-meta">
+            <span id="resultCount">26 products</span>
+            <span class="catalogue-note">For healthcare professional reference</span>
+          </div>
+
+          <div class="product-grid" id="productGrid"></div>
+          <div class="empty-state" id="emptyState" hidden>
+            <span>⌕</span>
+            <h3>No products found</h3>
+            <p>Try another product name, composition, or category.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="quality-section" id="quality">
+        <div class="container quality-grid">
+          <div class="quality-copy">
+            <div class="eyebrow light"><span></span> THE CUREALL PROMISE</div>
+            <h2>Good medicine<br /><em>starts with trust.</em></h2>
+            <p>
+              Every product conversation should be grounded in information
+              that is clear, considered, and easy to act on.
+            </p>
+          </div>
+          <div class="quality-points">
+            <div class="quality-point"><span>01</span><div><strong>Thoughtfully formulated</strong><p>Compositions designed for meaningful clinical needs.</p></div></div>
+            <div class="quality-point"><span>02</span><div><strong>Clearly communicated</strong><p>Useful product information, without the noise.</p></div></div>
+            <div class="quality-point"><span>03</span><div><strong>Carefully supported</strong><p>Built to support healthcare professionals and families.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="container about-grid">
+          <div class="about-stat"><strong>26</strong><span>featured products<br />in this catalogue</span></div>
+          <div>
+            <div class="eyebrow"><span></span> A BETTER WAY TO BROWSE</div>
+            <h2>Information that<br /><em>feels human.</em></h2>
+            <p>
+              Cureall Pharmaceutical products are presented in a clear,
+              focused catalogue shaped around the way people actually explore care:
+              visually, calmly, and with the details close at hand.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="brand footer-brand"><span class="brand-mark">+</span><span><strong>CUREALL</strong><small>PHARMACEUTICAL</small></span></div>
+        <p>Product catalogue for healthcare professional reference.</p>
+        <span>© 2024 Cureall Pharmaceutical</span>
+      </div>
+    </footer>
+
+    <div class="modal-backdrop" id="modalBackdrop" hidden>
+      <article class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" aria-label="Close product details">×</button>
+        <div class="modal-image-wrap"><img id="modalImage" src="" alt="" /></div>
+        <div class="modal-content">
+          <span class="modal-category" id="modalCategory"></span>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-composition" id="modalComposition"></p>
+          <div class="detail-columns">
+            <div><span class="detail-label">Dosage form</span><strong id="modalForm"></strong></div>
+            <div><span class="detail-label">Pack size</span><strong id="modalPack"></strong></div>
+          </div>
+          <div class="modal-block"><span class="detail-label">Indications</span><div class="pill-list" id="modalIndications"></div></div>
+          <div class="modal-disclaimer">Prescription medicines should be used only as directed by a qualified healthcare professional.</div>
+        </div>
+      </article>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
